@@ -31,7 +31,7 @@ client.download_result(results, 'path/to/output/dir')
 
 ## Basic: (Download) #
 ```ruby
-require idr_cloud_cleint
+require idr_cloud_client
 client = IDRCloudClient.new('http://localhost:80/' + IDRCloudClient::BUILDVU)
 
 # Convert the file with the input method specified
