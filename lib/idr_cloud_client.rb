@@ -70,7 +70,13 @@ class IDRCloudClient
 
       break unless params[:callbackUrl].nil?
 
-      raise('Server error getting conversion status, see server logs for details') if response['state'] == 'error'
+      if response['state'] == 'error'
+        exMessage = "Failed: Error with conversion\n" 
+        response.each do | key, val |
+          exMessage = exMessage + "#{key}: $#{val}\n" if key != 'state'
+        end
+        raise(exMessage)
+      end
 
       raise('Failed: File took longer than ' + @convert_timeout.to_s + ' seconds to convert') if i == @convert_timeout
     end
