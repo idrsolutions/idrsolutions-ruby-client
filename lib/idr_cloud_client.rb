@@ -31,6 +31,7 @@ class IDRCloudClient
   UPLOAD = 'upload'
   JPEDAL = 'jpedal'
   BUILDVU = 'buildvu'
+  FORMVU = 'formvu'
 
   @base_endpoint = nil
   @endpoint = nil
