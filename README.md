@@ -2,9 +2,17 @@
 
 Interact with any [IDRsolutions' Microservice Examples](https://github.com/idrsolutions/) using the IDRSolutions Ruby Client.
 
-The BuildVu Microservice Example is an open source project that allows you to convert PDFs using various softwares from [IDRSolutions](https://www.idrsolutions.com) as an online service.
+The IDRsolutions Microservice Examples are open source projects that allows you to
+convert PDFs using various softwares from [IDRSolutions](https://www.idrsolutions.com/) as an online service.
 
-IDRsolutions offer a free trial service for running these libraries with Ruby. You can find information at the following links for [JPedal](https://www.idrsolutions.com/jpedal/) and [BuildVU](https://www.idrsolutions.com/buildvu/).
+JPedal Microservice Example - Convert pages to images
+
+BuildVu Microservice Example - Convert PDFs to HTML or SVG
+
+FormVu Microservice Example - Convert PDF Forms to HTML
+
+IDR Solutions offer a free trial service for running these libraries with NodeJS. You can
+find information at the following links for [JPedal](https://www.idrsolutions.com/jpedal/), [BuildVu](https://www.idrsolutions.com/buildvu/), and [FormVu](https://www.idrsolutions.com/formvu/).
 
 -----
 
@@ -47,6 +55,10 @@ Full usage for connecting to BuildVu can be found [here](https://support.idrsolu
 ## JPedal: ##
 
 Full usage for connecting to JPedal can be found [here](https://support.idrsolutions.com/jpedal/tutorials/cloud/).
+
+## FormVu: ##
+
+Full usage for connecting to FormVu can be found [here](https://support.idrsolutions.com/formvu/tutorials/cloud/).
 
 -----
 
