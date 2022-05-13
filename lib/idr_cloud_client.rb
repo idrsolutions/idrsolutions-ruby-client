@@ -41,7 +41,7 @@ class IDRCloudClient
   # Constructor, setup the converter details
   # Params:
   # +url+:: string, the URL of the web service.
-  # +conversion_timeout+:: int, (optional) the time to wait (in seconds) before timing out. Set to 30 by default.
+  # +conversion_timeout+:: int, (optional) the time to wait (in seconds) before timing out. Values <= 0 are treated as infinite. Set to -1 by default.
   # +auth+:: array, (optional) the username and password to use for HTTP Authentication. Set to nil by default
   def initialize(url, conversion_timeout: -1, auth: nil)
     @base_endpoint = url
@@ -64,7 +64,7 @@ class IDRCloudClient
     response = nil
     poll_limit = @convert_timeout;
     if poll_limit <= 0
-        poll_limit = 1.0/0
+        poll_limit = Float::INFINITY
     end
     # check conversion status once every second until complete or error / timeout
     (0..poll_limit).each do |i|
