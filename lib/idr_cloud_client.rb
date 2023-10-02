@@ -1,6 +1,4 @@
 #--
-# Copyright 2021 IDRsolutions
-#
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 #
@@ -15,7 +13,7 @@
 # limitations under the License.
 #++
 #
-# Author:: IDRsolutions (mailto:support@idrsolutions.zendesk.com)
+# Author:: IDRsolutions (mailto:support@idrsolutions.com)
 # Copyright:: IDRsolutions
 # License:: Apache 2.0
 
