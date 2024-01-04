@@ -77,7 +77,7 @@ Short version: Don't be an awful person.
 Longer version: Everyone interacting in the BuildVu Ruby Client project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](CODE_OF_CONDUCT.md).  
 
 -----
-Copyright 2021 IDRsolutions
+Copyright 2024 IDRsolutions
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
